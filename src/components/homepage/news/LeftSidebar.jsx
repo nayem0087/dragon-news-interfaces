@@ -12,7 +12,7 @@ export const LeftSidebar = ({ categories, activeId }) => {
                     <li
                         key={category.category_id}
                         className={`
-                            ${activeId === category.category_id && 'bg-slate-100'}
+                            ${activeId === category.category_id && 'bg-purple-500 text-white'}
                             font-semibold text-md rounded-md text-center`}
                     >
                         <Link href={`/category/${category.category_id}`}
